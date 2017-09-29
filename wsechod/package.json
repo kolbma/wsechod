@@ -1,9 +1,22 @@
 {
   "name": "wsechod",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "wsechod",
   "main": "app.js",
   "author": {
     "name": "makolb"
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "utf-8-validate": "^3.0.3",
+    "ws": "^3.2.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.31",
+    "@types/ws": "^3.0.2",
+    "@types/yargs": "^8.0.2",
+    "mocha": "^3.5.3"
   }
 }
