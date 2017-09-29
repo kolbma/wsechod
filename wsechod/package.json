@@ -1,0 +1,9 @@
+{
+  "name": "wsechod",
+  "version": "0.0.0",
+  "description": "wsechod",
+  "main": "app.js",
+  "author": {
+    "name": "makolb"
+  }
+}
