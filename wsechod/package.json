@@ -1,11 +1,13 @@
 {
   "name": "wsechod",
   "version": "1.0.0",
-  "description": "wsechod",
+  "description": "WebSocket Echo Daemon",
   "main": "app.js",
   "author": {
-    "name": "makolb"
+    "name": "Markus Kolb",
+    "email": "markus.kolb+wsechod@n4v.eu"
   },
+  "private": true,
   "dependencies": {
     "bufferutil": "^3.0.2",
     "utf-8-validate": "^3.0.3",
