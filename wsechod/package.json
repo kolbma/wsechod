@@ -1,6 +1,6 @@
 {
   "name": "wsechod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebSocket Echo Daemon",
   "main": "app.js",
   "author": {
@@ -8,17 +8,24 @@
     "email": "markus.kolb+wsechod@n4v.eu"
   },
   "private": true,
+  "scripts": {
+    "test": "npx mocha --exit tests/*.js"
+  },
   "dependencies": {
-    "bufferutil": "^3.0.2",
-    "utf-8-validate": "^3.0.3",
-    "ws": "^3.2.0",
-    "yargs": "^9.0.1"
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^6.2.1",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.43",
-    "@types/node": "^8.0.31",
-    "@types/ws": "^3.0.2",
-    "@types/yargs": "^8.0.2",
-    "mocha": "^3.5.3"
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^8.10.45",
+    "@types/ws": "^6.0.1",
+    "@types/yargs": "^11.1.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.0.2",
+    "tslint": "^5.15.0",
+    "tslint-config-security": "^1.15.0",
+    "typescript": "^2.8.1"
   }
 }
