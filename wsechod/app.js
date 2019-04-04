@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const yargs = require("yargs");
-const server_1 = require("./server");
-let listeningPort = server_1.Server.DEFAULT_PORT;
-let heartbeatInterval = server_1.Server.DEFAULT_HEARTBEAT_INTERVAL;
-let year = new Date().getFullYear();
-let yargsObj = yargs
-    .version('1.0.0')
+var yargs = require("yargs");
+var server_1 = require("./server");
+var listeningPort = server_1.Server.DEFAULT_PORT;
+var heartbeatInterval = server_1.Server.DEFAULT_HEARTBEAT_INTERVAL;
+var year = new Date().getFullYear();
+var yargsObj = yargs
+    .version('1.0.1')
     .usage('Usage: $0 [options]')
     .describe('port', 'Specify the listening port')
     .number('port')
@@ -17,7 +17,7 @@ let yargsObj = yargs
     .help('h')
     .alias('h', 'help')
     .epilog('Copyright ' + year + ' by Markus Kolb');
-let argv = yargsObj.argv;
+var argv = yargsObj.argv;
 if (argv.port && argv.port > 1024) {
     listeningPort = argv.port;
 }
