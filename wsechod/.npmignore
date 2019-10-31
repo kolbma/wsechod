@@ -4,3 +4,7 @@ obj/
 *.ts
 *.map
 tsconfig.json
+tslint.json
+.editorconfig      
+.mocharc.json
+tests/
