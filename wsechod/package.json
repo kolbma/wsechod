@@ -15,17 +15,17 @@
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2",
     "ws": "^6.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^14.2.0"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.6",
+    "@types/mocha": "^5.2.7",
     "@types/node": "^8.10.45",
     "@types/ws": "^6.0.1",
-    "@types/yargs": "^11.1.0",
-    "eslint": "^5.16.0",
-    "mocha": "^6.0.2",
-    "tslint": "^5.15.0",
-    "tslint-config-security": "^1.15.0",
+    "@types/yargs": "^13.0.3",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
+    "tslint": "^5.20.0",
+    "tslint-config-security": "^1.16.0",
     "typescript": "^2.8.1"
   }
 }
