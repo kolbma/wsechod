@@ -1,6 +1,6 @@
 {
   "name": "wsechod",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WebSocket Echo Daemon",
   "main": "app.js",
   "author": {
